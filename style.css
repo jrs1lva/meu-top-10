@@ -3,3 +3,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+h1 {
+    color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100pt;
+    text-align: center;
+}

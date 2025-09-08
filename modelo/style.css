@@ -1,0 +1,89 @@
+body {
+  background-color: #1A1A1A;
+  font: normal 15pt Arial white;
+}
+
+header {
+  background: #1B2A38;
+  border-radius: 5px;
+  border-top: 25px solid #6D0F6F;
+  border-bottom: 10px solid #6D0F6F;
+  border-left: 10px solid #6D0F6F;
+  border-right: 10px solid #6D0F6F;
+  padding: 15px;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header h1 {
+  background-color: #1A1A1A;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#slides-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.slide img {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.slide .texto {
+  max-width: 400px;
+  text-align: justify;
+  color: white;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.botao-voltar {
+  background-color: white;
+  color: #6D0F6F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-avancar {
+  background-color: white;
+  color: #6D0F6F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*.botoes button {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: gold;
+}*/
