@@ -9,11 +9,18 @@
 <body>
     <h1>TOP 10 CAMISAS DE TIME</h1>
 
-    <div id="slides-container"><img src="assets/Approve x Corinthians.jpg" alt=""></div>
+    <div id="container">
+        <img src="assets/Approve x Corinthians.jpg" alt="Camisa do Corinthians" id="foto">
+        <div class="texto">
+            <h2 id="titulo">Título</h2>
+            <p id="descricao">Descrição</p>
+            <a href="" target="_blank">Link</a>
+        </div>
+    </div>
 
     <div class="botoes">
-        <button id="btn-voltar" class="botao-voltar" onclick="voltaSlide()">⬅</button>
-        <button id="btn-avancar" class="botao-avancar" onclick="passaSlide()">➡</button>
+        <button id="btn-voltar" onclick="voltaSlide()">⬅</button>
+        <button id="btn-avancar" onclick="passaSlide()">➡</button>
     </div>
     
     <script src="script.js"></script>

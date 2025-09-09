@@ -1,9 +1,5 @@
-var slides = document.getElementById('slides-container')
-
-function passaSlide() {
-
-}
-
-function voltaSlide() {
-
-}
+//img: "",
+//posicao: "",
+//nome: "",
+//descricao: ""
+//link de compra: ""
